@@ -29,6 +29,8 @@ npm run dev -- --open
 
 # Considerations
 
+Project structured in layers, where the routes, controllers, services, database and interfaces are located.
+
 ## Routing version
 
 Version is used in the path, to be able to improve the logic or add data in new versions, maintaining stability in all
@@ -41,4 +43,21 @@ To create the database in postgresql, run the queries on the db.sql file in the 
 ## ENV
 
 Configure the .env file at the root of the project with the variables
+
+> > PORT=5000
+
+> > KEY_TOKEN=XXXXXXXXXXXXXXXXX
+
+## endpoint documentation with swagger
+
+Enter the link to test the endpoints
+
+API documentation: [`SWAGGER`](http://localhost:5000/api-docs/).
+
+***
+
+
+
+
+
 
