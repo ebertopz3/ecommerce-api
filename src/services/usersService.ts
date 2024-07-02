@@ -81,9 +81,11 @@ export namespace UsersService {
       'insert into users (name, email, password) values ($1, $2, $3) returning *',
       [name, email, cryptPassword]
     )
+    rows[0].password = password
+    delete rows[0].id;
     return {
       success: true,
-      statusCode: 201,
+      statusCode: 200,
       data: rows[0],
       message: 'User Created Success'
     }

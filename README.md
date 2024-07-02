@@ -40,13 +40,17 @@ versions of the API
 
 To create the database in postgresql, run the queries on the db.sql file in the database folder
 
+## Register User
+
+Register a user to start, use register/user in the documentation for password encryption
+
 ## ENV
 
 Configure the .env file at the root of the project with the variables
 
-> > PORT=5000
+> PORT=5000
 
-> > KEY_TOKEN=XXXXXXXXXXXXXXXXX
+> KEY_TOKEN=XXXXXXXXXXXXXXXXX
 
 ## endpoint documentation with swagger
 
